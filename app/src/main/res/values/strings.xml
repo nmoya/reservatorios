@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Reservatorios</string>
+    <string name="app_name">Reservatórios</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="http_loading_dialog">Carregando. Por favor aguarde...</string>
 </resources>
