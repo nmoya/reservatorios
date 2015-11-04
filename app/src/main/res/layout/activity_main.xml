@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="-15dp"
+        android:layout_marginBottom="-15dp"
+        android:src="@drawable/brasil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewNorte"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="101dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="143dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/textViewNordeste"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewNorte"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewSudeste"
+        android:layout_below="@+id/textViewNordeste"
+        android:layout_toRightOf="@+id/textViewNorte"
+        android:layout_toEndOf="@+id/textViewNorte"
+        android:layout_marginTop="78dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:id="@+id/textViewSul"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/textViewSudeste"
+        android:layout_alignRight="@+id/textViewSudeste"
+        android:layout_alignEnd="@+id/textViewSudeste"
+        android:textStyle="bold" />
+
+</RelativeLayout>
