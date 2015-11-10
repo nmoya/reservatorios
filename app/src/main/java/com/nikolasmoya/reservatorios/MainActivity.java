@@ -76,6 +76,10 @@ public class MainActivity extends Activity implements HttpRequestListener
     @Override
     public void onHttpResponse(Document response)
     {
+        if (response == null)
+        {
+            return;
+        }
         TextView _north, _northeast, _southeast, _south;
         TextView _lastUpdate;
         _dialog.dismiss();
